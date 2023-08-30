@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@1,100&family=Dancing+Script:wght@700&family=Merriweather:ital,wght@1,700&display=swap');
+img{
+    width: 100%;
+    height: 100%;
+}
+.last{
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+}
+.card {
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+  
+  }
+
+  .card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  div{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Merriweather', serif;
+  }

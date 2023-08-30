@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@1,100&display=swap');
+h3{
+    color: blue;
+    background-color: darkgray;
+    padding: 5px;
+    text-align: center;
+}
+b{
+    color: crimson;
+}
+h4{
+    background-color: rgb(175, 175, 167);
+    color:red;
+    padding: 5px;
+}
+
+img{
+    height: 300px;
+    width: 400px;
+   display: inline;
+   margin-left: 10px;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+h3:hover {
+    transform: translate3d(-5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+img:hover {
+    transform: rotate(-5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  p{
+    font-family: 'Anton', sans-serif;
+  }
+  div{
+
+    font-family: 'Anton', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Dancing Script', cursive;
+  }
